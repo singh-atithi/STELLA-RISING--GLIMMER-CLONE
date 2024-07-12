@@ -1,4 +1,123 @@
-*{
+* {
     margin: 0;
-    border:border-box ;
-}
+    border: border-box;
+    font-family: 'Quasimoda',sans-serif;
+  }
+  .hero-page {
+    height: 100vh;
+    min-width: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .hero-page-second {
+    height: 100%;
+    width: 100%;
+  }
+  .glimmer-top-back {
+    height: 40%;
+    width: 100%;
+    background: url(back-top.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .glimmer-logo {
+    height: 100%;
+    width: 80%;
+  
+    /* width:100%;
+      background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stellarising-logo {
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  /* .stellarising-logo:hover{
+          background-color: #15202B;
+          animation: reddish-effect 1s linear 0s infinite;
+  
+      }
+      @keyframes reddish-effect{
+          from{
+              border-top:5px solid white;
+              border-right: 5px solid white;
+              border-radius: 50%;
+          }
+          to{
+              border-top:5px solid rgb(20, 70, 207);
+              border-: 5px solid rgb(24, 74, 212);
+              border-radius: 50%;
+          }
+      } */
+  #big {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  #small {
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.836);
+  }
+  .navbar {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menuchange {
+    /* height: 40%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    align-items: center;
+  }
+  .menuchange a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 1rem;  
+  }
+  .menuchange a:hover {
+    /* background-color: ; */
+    color: white;
+    padding: 8px;
+    border: 2px solid rgba(0, 255, 255, 0.438);
+    border-radius: 18px;
+    font-size: 1rem;
+  }
+  .heading {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  @media (max-width: 990px) {
+    .menuchange {
+      display: none;
+    }
+  }
+  @media (max-width: 500px) {
+    .heading {
+      font-size: 1em;
+    }
+  }
+  
